@@ -39,7 +39,7 @@ function renderGraph() {
   },
   options: {
    responsive: true,
-   maintainAspectRatio: false,
+//    maintainAspectRatio: false,
 
    scales: {
     xAxes: [{
