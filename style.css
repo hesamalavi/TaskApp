@@ -231,8 +231,8 @@ input {
   canvas{
 
   width:90vw!important;
-  height:auto !important;
-  margin: auto;
+  height:90vh !important;
+/*   margin: auto; */
 
 }
 }
