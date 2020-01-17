@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>To do list with reminder</title>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+ <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"
+  integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous"></script>
+ <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+
+ <div id="myDIV" class="header">
+  <h1>My Daily Tasks</h1>
+  <p>Add a time and task then press enter. When finished task click on task bar</p>
+
+  <p>To delete task click on <span id="x-text">x</span> in the corner of task bar</p>
+  <input type="time" id="myInput1" value="06:00">
+  <input name="text" type="text" id="myInput" placeholder="My task...">
+
+  <span onclick="newElement()" class="addBtn" id="myBtn"></span>
+ </div>
+ <ul id="columns">
+
+ </ul>
+ <ul id="columns2">
+  <h1 id="finished-tasks">finished Tasks</h1>
+  <p id="finished-tasks-p">Finished tasks would show up here once you have clicked on the task</p>
+
+ </ul>
+
+ <!-- adding a graph -->
+ <canvas id="myChart" width="400" height="400"></canvas>
+
+ <script src="/graph.js"></script>
+ <script src="/app.js"></script>
+ <!--
+ <div id="element"></div>
+ <script>
+  document.getElementById('element').innerHTML = 'Hi';
+ </script>-->
+
+
+ <script>
+
+  $("#columns").on('click', 'li', function () {
+   $(this).appendTo('#columns2');
+  });
+
+  $("#listC").on('click', 'li', function () {
+   $(this).appendTo('#listB');
+  });
+
+ </script>
+
+
+
+
+</body>
+
+</html>
