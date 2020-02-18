@@ -1,4 +1,4 @@
-# TaskApp
+# TaskApp (vanilla javascript)
 This app allows you to create **tasks** based on **hours**.
 For example you may want to start working on a project at 8:00am. You would:
 1. Select a time
