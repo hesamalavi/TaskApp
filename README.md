@@ -10,8 +10,8 @@ From here you have two options:
 1. Click on the listed task
 2. Click on the x in the right hand corner of the listed task
 ---
-If you click* on the listed task, your task would be added to the finished tasks list
-If you click* on the x, that task would get deleted from the list of tasks
+If you click on the listed task, your task would be added to the finished tasks list
+If you click on the x, that task would get deleted from the list of tasks
 ---
 The app keeps a tally of your added tasks and you finished tasks and presents it in a graph
 Here is a [link] (https://hesamalavi.github.io/TaskApp/)to the app.
